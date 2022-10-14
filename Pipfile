@@ -16,6 +16,7 @@ python_version = "3.10"
 test-unit = "python -m pytest -vv tests/unit"
 coverage-run = "coverage run  -m pytest test"
 coverage-report = "coverage html"
+test = "python -m pytest test"
 
 [pipenv]
 allow_prereleases = true
